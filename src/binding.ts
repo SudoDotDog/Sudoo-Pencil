@@ -15,6 +15,7 @@ import * as Path from 'path';
     ModuleAlias.addAliases({
         "sudoo-pencil#declare": Path.join(here, 'declare'),
         "sudoo-pencil#pencil": Path.join(here, 'pencil'),
+        "sudoo-pencil#sketch": Path.join(here, 'sketch'),
         "sudoo-pencil#util": Path.join(here, 'util'),
     });
 })(process.env.NODE_MODULE_ALIAS_SUDOO_PENCIL, process.env.NODE_ENV === 'test');

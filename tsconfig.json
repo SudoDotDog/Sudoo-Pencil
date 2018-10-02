@@ -18,6 +18,7 @@
         "paths": {
             "sudoo-pencil#declare/*": ["declare/*"],
             "sudoo-pencil#pencil/*": ["pencil/*"],
+            "sudoo-pencil#sketch/*": ["sketch/*"],
             "sudoo-pencil#util/*": ["util/*"],
         },
         "removeComments": true,
